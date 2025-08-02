@@ -11,7 +11,7 @@ body{
 
 /* navbar */
 .navbar{
-    height: 5rem;
+    height: auto;
     background-color: white;
 }
 
@@ -22,6 +22,7 @@ body{
 .nav-link{
    color: #222222 !important;
 }
+
 
 /* footer */
 .f-info-links a{
@@ -57,7 +58,7 @@ body{
 }
 
 /* cards */
-.card{
+.listing-card{
     border: none !important;
     margin-bottom: 2rem;
 }
@@ -109,4 +110,15 @@ body{
 .show-card{
     padding-left: 0;
     padding-right: 0;
+}
+
+img{
+    height: 200px;
+    width: 250px;
+}
+
+/* map */
+#map { 
+    height: 400px;
+    width: 80vh;
 }
